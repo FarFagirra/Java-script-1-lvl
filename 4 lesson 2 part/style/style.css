@@ -1,0 +1,105 @@
+*{margin:0; padding:0; outline:0;}
+html, body {
+	height:100%;
+}
+.container{
+	min-height:100%;
+	background:orange;
+	width:800px;
+	margin: auto;
+	position: relative;
+}
+main {
+	padding:100px 10px;
+}
+#menu {
+	border:6px double #f0aa4f;
+	font : bold 15px Arial;
+	height:70px;
+	list-style:none;
+	display: flex;
+	background: yellow;
+}
+#menu li {position:relative; display: inline-block; padding-top: 25px;}
+#menu p {position:relative; display: inline-block; padding-top: 25px;}
+#menu li a{display:block; padding:0 15px; text-decoration:none; color: black;}
+#menu li:hover .submenu{display: block; border:6px double #f0aa4f; background:yellow;}
+
+.submenu {
+	display:none;
+	list-style:none;
+	background:green;
+	position: absolute;
+	width:100%;
+	top:40px;
+}
+
+#tovar {
+	font : italic lighter 15px Calibri;
+}
+h4 {
+	font : italic bold 18px Calibri;
+	text-decoration:underline;
+}
+hr {background-color:black;
+	height:5px;
+}
+#fulltovar {
+	font : oblique lighter 17px Times New Roman;
+	position: relative;
+}
+h2 {
+	font : italic bold 20px Calibri;
+	text-decoration:underline;
+}
+input:focus {
+  color: #000000;
+  border: 2px solid #000000;
+}
+input {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a:link {color:red;}
+a:visited {color:blue;}
+a:active {color:maroon;}
+a:focus {color:lightgreen;}
+
+#logo {text-align:center; float:left; margin-left:20px;}
+#logo img {}
+
+#polevvoda:focus {background-color:lightgreen;
+color:midnightblue;}
+#polevvoda:after {background-color:lightgreen;
+color:midnightblue;}
+
+#polevvoda {text-transform:capitalize}
+
+table {border: 1px solid #000;}
+td {border: 1px solid #000;}
+table {border-collapse: collapse;}
+
+footer {
+	position: absolute;
+	background: darkorange;
+	bottom:0;
+	left:0
+	width:100%;
+	height:50px;
+	right:0;
+}
+footer p {margin:15px;}
+header {
+	position: fixed;
+	height:70px;
+	margin-bottom:50px;
+	z-index: 2;
+}
+
+#fulltovar li {margin: 5px 15px;}
+#knopka { bottom: 10px; left:40px; background:green; border-radius: 15px; padding: 2px 2px; text-decoration: none;}
+#fulltovar a:hover {background:yellow;}
+#fulltovar img {float:left;}
